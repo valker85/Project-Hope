@@ -1,0 +1,598 @@
+/* =======================  IPAD  ======================= */
+@media screen and (max-width: 1366px) and (min-width: 769px){
+    header ul li{
+        border-top: 1px solid rgb(211, 211, 211);
+        padding-top: 2vw;
+    }
+    .container{
+        width: 100%;
+        padding: 0 1.47vw;
+    }
+    header .logo {
+        width: 15.6vw;
+    }
+    header .burger{
+        display: block;
+    }
+    header ul {
+        display: none;
+    }
+    header ul li a {
+        font-size: 2vw;
+        font-weight: 400;
+    }
+    header ul li:not(:last-child) {
+        margin-right: 0vw;
+        margin-bottom: 2vw;
+    }
+    .section1 h1 {
+        font-size: 5vw;
+        margin: 12.14vw 0 0 8.042vw;
+    }
+    .section1 p {
+        width: 64vw;
+        font-size: 1.89vw;
+    }
+    .section2 h1 {
+        margin: 10vw 0;
+        width: 33vw;
+        font-size: 3.61vw;
+        margin-left: 11vw;
+    }
+    .section2 .block .img{
+        width: 58vw;
+    }
+    .section2 .block .text h2 {
+        font-size: 3vw;
+    }
+    .section2 .block .text h2 span {
+        font-size: 1.5vw;
+        margin-top: 1.5vw;
+    }
+    .section2 .block .text {
+        margin-left: 3.271vw;
+        width: 37%;
+    }
+    .section2 .block .text p {
+        font-size: 1.89vw;
+        width: 32vw;
+    }
+    .section2 .block.rev .text {
+        margin-right: 3.271vw;
+    }
+    .section3 .watch_video {
+        font-size: 1.89vw;
+    }
+    .section3 .sec3img1, .section3 .sec3img2 {
+        margin-top: 2vw;
+        width: 100%;
+    }
+    .section3 .locations .loc_block ul li {
+        font-size: 1.89vw;
+        padding: 1.7vw 0;
+        width: 31.15vw;
+    }
+    .section3 .locations h1 {
+        font-size: 3.5vw;
+    }
+    .section4 .sec3_header h1 {
+        font-size: 3.5vw;
+    }
+    .section4 .sec3_header .logo {
+        width: 23.63vw;
+    }
+    .section4 .info {
+        width: 52vw;
+        margin-top: 6.5vw;
+        margin-bottom: 8vw;
+    }
+    .section4 .info p {
+        font-size: 1.89vw;
+    }
+    .section4 .info_blocks .block h3 {
+        font-size: 1.89vw;
+    }
+    .section4 .info_blocks .block ul li {
+        font-size: 1.89vw;
+        margin-bottom: 0.7vw;
+    }
+    .section4 .info_blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 3.8vw;
+        grid-row-gap: 5.8vw;
+    }
+    .section4 {
+        margin-top: 9.83vw;
+        margin-bottom: 10.83vw;
+    }
+
+    footer .footer_info .logo {
+        width: 15.6vw;
+        display: none;
+    }
+    footer .footer_info {
+        display: block;
+    }
+    footer .footer_info ul li:not(:last-child) {
+        margin-right: 2.7vw;
+    }
+    footer .footer_info ul li a {
+        font-size: 1.6vw;
+        white-space: nowrap;
+    }
+    footer .footer_info ul {
+        margin-top: 1vw;
+    }
+    footer .other_info {
+        margin-top: 7vw;
+    }
+    footer .other_info p {
+        font-size: 1.4vw;
+    }
+    footer .other_info .social ul li {
+        width: 3.3vw;
+    }
+    footer .other_info .social ul li:not(:last-child) {
+        margin-right: 4.5vw;
+    }
+}
+/* =======================  Tablet  ======================= */
+@media screen and (max-width: 768px) and (min-width: 426px){
+    header ul li{
+        border-top: 1px solid rgb(211, 211, 211);
+        padding-top: 2vw;
+    }
+    .container{
+        width: 100%;
+        padding: 0 3vw;
+    }
+    header .logo {
+        width: 21.6vw;
+    }
+    header .burger {
+        height: 5vw;
+        width: 7vw;
+        padding: 1vw;
+        margin-top: 5.5vw;
+        display: block;
+    }
+    header .burger span {
+        display: block;
+        height: 0.5vw;
+        margin-bottom: 0.9vw;
+        width: 100%;
+        background: black;
+    }
+    header ul {
+        display: none;
+    }
+    header ul li a {
+        font-size: 3vw;
+        font-weight: 400;
+    }
+    header ul li:not(:last-child) {
+        margin-right: 0vw;
+        margin-bottom: 3vw;
+    }
+    .section1 h1 {
+        font-size: 6vw;
+        text-align: center;
+    }
+    .section1 p {
+        width: 80vw;
+        font-size: 2.89vw;
+    }
+    .section2 h1 {
+        margin: 10vw 0;
+        width: 42vw;
+        font-size: 4.61vw;
+        margin-left: 11vw;
+    }
+    .section2 .block {
+        display: block;
+        margin-top: 7.82vw;
+    }
+    .section2 .block .img {
+        width: 100%;
+    }
+    .section2 .block .text h2 {
+        font-size: 4vw;
+        margin-top: 12vw;
+    }
+    .section2 .block .text h2 span {
+        font-size: 1.5vw;
+        margin-top: 1.5vw;
+    }
+    .section2 .block .text {
+        margin-left: 0;
+        width: 100%;
+    }
+    .section2 .block .text p {
+        font-size: 2.89vw;
+        width: 80vw;
+        margin-bottom: 6vw;
+    }
+    .section2 .block.rev .text {
+        margin-right: 3.271vw;
+    }
+    .section2 .block .text h2 span {
+        font-size: 2.5vw;
+        margin-top: 2.5vw;
+    }
+    .section2 .block .text.dn{
+        display: block;
+    }
+    .section2 .block .text{
+        display: none;
+    }
+    .section3 .watch_video {
+        font-size: 2.89vw;
+    }
+    .section3 .sec3img1, .section3 .sec3img2 {
+        margin-top: 2vw;
+        width: 100%;
+    }
+
+
+    .section3 .locations {
+        margin-left: 4vw;
+        display: block;
+        margin-top: 7.83vw;
+        justify-content: space-between;
+        margin-bottom: 10vw;
+    }
+    .section3 .locations .loc_block ul li {
+        font-size: 2.89vw;
+        padding: 1.7vw 0;
+        width: 68vw;
+    }
+    .section3 .locations .loc_block ul.how_much_lock li {
+        margin-right: 0;
+        width: 24vw;
+    }
+    .section3 .locations h1 {
+        font-size: 4.5vw;
+        text-align: center;
+        margin-bottom: 6vw;
+    }
+    .section4 .sec3_header h1 {
+        font-size: 4vw;
+    }
+    .section4 .sec3_header .logo {
+        width: 30vw;
+    }
+    .section4 .info {
+        width: 80vw;
+        margin-top: 8.5vw;
+        margin-bottom: 9vw;
+    }
+    .section4 .info p {
+        font-size: 2.89vw;
+    }
+    .section4 .info_blocks .block h3 {
+        font-size: 2.89vw;
+    }
+    .section4 .info_blocks .block .line {
+        margin: 2.3vw 0;
+    }
+    .section4 .info_blocks .block ul li {
+        font-size: 2.6vw;
+        margin-bottom: 1.6vw;
+    }
+    .section4 .info_blocks {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 3.8vw;
+        grid-row-gap: 7vw;
+    }
+    .section4 {
+        margin-top: 9.83vw;
+        margin-bottom: 10.83vw;
+    }
+
+    footer .footer_info .logo {
+        width: 15.6vw;
+        display: none;
+    }
+    footer .footer_info {
+        display: inline-block;
+    }
+    footer .footer_info ul li:not(:last-child) {
+        margin-bottom: 2vw;
+        margin-right: 0;
+    }
+    footer .footer_info ul li a {
+        font-size: 2.6vw;
+        white-space: nowrap;
+
+    }
+    footer .footer_info ul {
+        margin-top: 1vw;
+        display: block;
+        margin-left: 3vw;
+    }
+    footer .other_info {
+        margin-top: 7vw;
+        display: inline-block;
+    }
+    footer .other_info p {
+        font-size: 2.4vw;
+    }
+    footer .other_info .social ul li {
+        width: 3.3vw;
+    }
+    footer .other_info .social ul li:not(:last-child) {
+        margin-right: 4.5vw;
+    }
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    footer .other_info .social{
+        display: none;
+    }
+    footer .other_info .social.dn{
+        display: flex;
+    }
+    footer .other_info .social ul li {
+        width: 4.3vw;
+    }
+    footer .other_info .social ul {
+        list-style: none;
+        display: flex;
+        margin-bottom: 5vw;
+    }
+    .burger_block button {
+        border: none;
+        background: none;
+        font-size: 7vw;
+        font-weight: 100;
+        color: #2e2e2e;
+    }
+}
+/* =======================  Mobile  ======================= */
+@media screen and (max-width: 425px){
+    header ul li{
+        border-top: 1px solid rgb(211, 211, 211);
+        padding-top: 2vw;
+    }
+    .container{
+        width: 100%;
+        padding: 0 4vw;
+    }
+    header .logo {
+        width: 30vw;
+    }
+    header .burger {
+        height: 5vw;
+        width: 7vw;
+        padding: 1vw;
+        margin-top: 8.5vw;
+        display: block;
+    }
+    header .burger span {
+        display: block;
+        height: 0.5vw;
+        margin-bottom: 0.9vw;
+        width: 100%;
+        background: black;
+    }
+    .burger_block button {
+        border: none;
+        background: none;
+        font-size: 11vw;
+        font-weight: 100;
+        color: #2e2e2e;
+    }
+    header ul {
+        display: none;
+    }
+    header ul li a {
+        font-size: 4vw;
+        font-weight: 400;
+    }
+    header ul li:not(:last-child) {
+        margin-right: 0vw;
+        margin-bottom: 4.5vw;
+    }
+    .section1 h1 {
+        font-size: 8vw;
+        text-align: center;
+    }
+    .section1 p {
+        width: 83vw;
+        font-size: 4vw;
+    }
+    .section2 h1 {
+        margin: 10vw 0;
+        width: 62vw;
+        font-size: 6.61vw;
+        margin-left: 11vw;
+    }
+    .section2 .block {
+        display: block;
+        margin-top: 7.82vw;
+    }
+    .section2 .block .img {
+        width: 100%;
+    }
+    .section2 .block .text h2 {
+        font-size: 5vw;
+        margin-top: 15vw;
+    }
+    .section2 .block .text h2 span {
+        font-size: 2vw;
+        margin-top: 2vw;
+    }
+    .section2 .block .text {
+        margin-left: 0;
+        width: 100%;
+    }
+    .section2 .block .text p {
+        font-size: 4vw;
+        width: 80vw;
+        margin-bottom: 6vw;
+    }
+    .section2 .block.rev .text {
+        margin-right: 3.271vw;
+    }
+    .section2 .block .text h2 span {
+        font-size: 2.5vw;
+        margin-top: 2.5vw;
+    }
+    .section2 .block .text.dn{
+        display: block;
+    }
+    .section2 .block .text{
+        display: none;
+    }
+    .section3 .watch_video {
+        font-size: 3.89vw;
+    }
+    .section3 .sec3img1, .section3 .sec3img2 {
+        margin-top: 2vw;
+        width: 100%;
+    }
+    .section3{
+        margin-top: 13vw;
+    }
+
+    .section3 .locations {
+        margin-left: 4vw;
+        display: block;
+        margin-top: 7.83vw;
+        justify-content: space-between;
+        margin-bottom: 10vw;
+    }
+    .section3 .locations .loc_block ul li {
+        font-size: 3.89vw;
+        padding: 4vw 0;
+        width: 50vw;
+    }
+    .section3 .locations .loc_block ul.how_much_lock li {
+        margin-right: 0;
+        width: 42vw;
+    }
+    .section3 .locations h1 {
+        font-size: 6.5vw;
+        text-align: center;
+        margin-bottom: 8vw;
+    }
+    .section4 .sec3_header h1 {
+        font-size: 4vw;
+    }
+    .section4 .sec3_header .logo {
+        width: 30vw;
+    }
+    .section4 .info {
+        width: 90vw;
+        margin-top: 8.5vw;
+        margin-bottom: 12vw;
+    }
+    .section4 .info p {
+        font-size: 3.89vw;
+    }
+    .section4 .info_blocks .block h3 {
+        font-size: 3.89vw;
+    }
+    .section4 .info_blocks .block .line {
+        margin: 3.3vw 0;
+    }
+    .section4 .info_blocks .block ul li {
+        font-size: 3.6vw;
+        margin-bottom: 2.6vw;
+    }
+    .section4 .info_blocks {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0vw;
+        grid-row-gap: 10vw;
+    }
+    .section4 {
+        margin-top: 15vw;
+        margin-bottom: 10.83vw;
+    }
+
+    footer .footer_info .logo {
+        width: 15.6vw;
+        display: none;
+    }
+    footer .footer_info {
+        display: inline-block;
+    }
+    footer .footer_info ul li:not(:last-child) {
+        margin-bottom: 3vw;
+        margin-right: 0;
+    }
+    footer .footer_info ul li a {
+        font-size: 3.4vw;
+        white-space: nowrap;
+    }
+    footer .footer_info ul {
+        margin-top: 1vw;
+        display: block;
+        margin-left: 3vw;
+    }
+    footer .other_info {
+        margin-top: 7vw;
+        display: inline-block;
+    }
+    footer .other_info p {
+        font-size: 2.8vw;
+    }
+    footer .other_info .social ul li:not(:last-child) {
+        margin-right: 4.2vw;
+    }
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    footer .other_info .social{
+        display: none;
+    }
+    footer .other_info .social.dn{
+        display: flex;
+    }
+    footer .other_info .social ul li {
+        width: 5.3vw;
+    }
+    footer .other_info .social ul {
+        list-style: none;
+        display: flex;
+        margin-bottom: 7vw;
+    }
+}
+@media screen and (max-width: 413px){
+    .section3 .locations .loc_block ul li {
+        font-size: 3.89vw;
+        padding: 4vw 0;
+        width: 57vw;
+    }
+    .section3 .locations .loc_block ul.how_much_lock li {
+        margin-right: 0;
+        width: 30vw;
+    }
+}
+@media screen and (max-width: 275px){
+    .section3 .locations .loc_block ul li {
+        font-size: 3.89vw;
+        padding: 4vw 0;
+        width: 55vw;
+    }
+    .section3 .locations .loc_block ul.how_much_lock li {
+        margin-right: 0;
+        width: 28vw;
+    }
+}
+
+
+/* 
+    15px - 1.47vwvw
+    18px - 0.938vw
+    20px - 1.042vw
+    50px - 2.605vw
+    62px - 2.61vw
+*/
